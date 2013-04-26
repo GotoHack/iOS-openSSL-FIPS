@@ -22,8 +22,6 @@ export CROSS_TOP="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.
 export CROSS_CHAIN="$CROSS_TOP"/usr/bin/
 
 # CROSS_SDK is the SDK version being used - adjust as appropriate
-# for 4.3 or 5.0 (default)
-#for i in 5.1 5.0 4.3 do
 for i in 6.1 5.1 5.0 4.3 do
 do
   if [ -d "$CROSS_DEVELOPER/Platforms/iPhoneOS.platform//Developer/SDKs/iPhoneOS"$i".sdk" ]; then
@@ -33,6 +31,12 @@ do
 done
 
 export CROSS_SDK=iPhone"$CROSS_TYPE""$SDKVER".sdk
+
+# configure include iOS SDK PATHS
+IPHONE_SDK=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS"$SDKVER".sdk
+
+export C_INCLUDE_PATH=$IPHONE_SDK/usr/include
+export CPLUS_INCLUDE_PATH=$C_INCLUDE_PATH
 
 #
 # fips/sha/Makefile uses HOSTCC for building fips_standalone_sha1

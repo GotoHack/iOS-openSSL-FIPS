@@ -1,6 +1,6 @@
-#
+#---------------------------------------------------------
 # install FIPS Capable library
-#
+#---------------------------------------------------------
 
 # move to Source dir
 cd Source
@@ -17,8 +17,5 @@ FIPSDIR=/usr/local/ssl/Release-iphoneos
 # install - may require root...
 cp libssl.a $FIPSDIR
 cp libcrypto.a $FIPSDIR
-
-#ranlib $FIPSDIR/libssl.a
-#ranlib $FIPSDIR/libcrypto.a
 
 

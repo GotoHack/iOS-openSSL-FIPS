@@ -1,6 +1,6 @@
-#
+#---------------------------------------------------------
 # remove quarantine bit and ensure the execute bit is set
-#
+#---------------------------------------------------------
 
 # move to Source dir
 cd Source

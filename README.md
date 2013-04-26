@@ -1,6 +1,6 @@
 #iOS-openSSL-FIPS
 
-iOS-openSSL-FIPS is an open-source project that creates the iOS FIPS version of the openssl libraries: libssl.a and libcrypto.a 
+iOS-openSSL-FIPS is an open-source project that creates the iOS (armv7) FIPS version of the openssl libraries: libssl.a and libcrypto.a 
 
 ## Build and Install
 
