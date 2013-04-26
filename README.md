@@ -23,4 +23,14 @@ The build and install process is simple, just execute the build.sh script. The p
 
 ## Xcode Example
 
-In process of creating 
+The fips-pi.tar archive contains a sample test Xcode project (fips-pi.xcodeproj). Un-tar the archive and ensure the following are set:
+
+<img align="center" src="./xc-1.png">
+
+<img align="center" src="./xc-2.png">
+
+<img align="center" src="./xc-3.png">
+
+<img align="center" src="./xc-4.png">
+
+<img align="center" src="./xc-6.png">

@@ -13,9 +13,17 @@ cd openssl-1.0.1c/
 . ../setenv-ios-11.sh
 
 FIPSDIR=/usr/local/ssl/Release-iphoneos
+INCDIR=/usr/local/ssl/Release-iphoneos/include/openssl
 
 # install - may require root...
+# libraries
 cp libssl.a $FIPSDIR
 cp libcrypto.a $FIPSDIR
-
+# headers
+cp crypto/stack/stack.h     $INCDIR
+cp crypto/stack/safestack.h $INCDIR
+cp crypto/err/err.h         $INCDIR
+cp crypto/bio/bio.h         $INCDIR
+cp crypto/lhash/lhash.h     $INCDIR
+cp crypto/rand/rand.h       $INCDIR
 
