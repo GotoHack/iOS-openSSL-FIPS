@@ -4,7 +4,7 @@ iOS-openSSL-FIPS is an open-source project that creates the iOS (armv7) FIPS ver
 
 ## Build and Install
 
-The build and install process is simple, just execute the build.sh script. The process will install the libraries into /usr/local/ssl/Release-iphoneos/.  
+The build and install process is simple, just execute the build.sh script. The process will install the libraries into /usr/local/ssl/Release-iphoneos/ and the incore_macho utility into /usr/local/bin/.  
 
 	/usr/local/ssl/Release-iphoneos/
 
@@ -14,9 +14,13 @@ The build and install process is simple, just execute the build.sh script. The p
 		libssl.a
 		libcrypto.a
   
+	/usr/local/bin/
+	
+		incore_macho
+
 **NOTE:** You may have to execute the build script with admin privileges e.g. sudo ./build.sh
 
 
 ## Xcode Example
 
-In process of creating
+In process of creating 

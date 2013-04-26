@@ -30,6 +30,5 @@ make
 cd iOS/
 make
 
-# install in home dir
-mkdir -p "$HOME/bin"
-cp ./incore_macho "$HOME/bin"
+# install /usr/local/bin
+cp ./incore_macho /usr/local/bin

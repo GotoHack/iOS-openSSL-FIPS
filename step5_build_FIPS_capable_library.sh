@@ -6,7 +6,7 @@
 cd Source
 
 # make incore_macho available to build
-export PATH="$HOME/bin":$PATH
+export PATH="/usr/local/bin":$PATH
 
 # delete old artifacts
 rm -Rf openssl-1.0.1c/

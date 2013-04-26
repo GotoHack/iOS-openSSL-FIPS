@@ -9,7 +9,7 @@ cd Source
 rm -Rf openssl-fips-2.0.1/
 
 # make incore_macho available to build
-export PATH="$HOME/bin":$PATH
+export PATH="/usr/local/bin":$PATH
 
 # unpack fresh files
 tar xzf openssl-fips-2.0.1.tar 
