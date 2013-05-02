@@ -26,4 +26,8 @@ cp crypto/err/err.h         $INCDIR
 cp crypto/bio/bio.h         $INCDIR
 cp crypto/lhash/lhash.h     $INCDIR
 cp crypto/rand/rand.h       $INCDIR
+cp crypto/evp/evp.h         $INCDIR
+cp crypto/objects/objects.h $INCDIR
+cp crypto/objects/obj_mac.h $INCDIR
+cp crypto/asn1/asn1.h       $INCDIR
 
